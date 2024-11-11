@@ -1,0 +1,48 @@
+
+ *{
+   margin: 0;
+  padding: 0;
+}
+ 
+body {
+   
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 650px;
+  background-color: #f8f8f8;
+}
+
+.container {
+  width: 60%;
+  max-width: 800px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between; 
+  grid-row: 15px; 
+  column-gap: 10px; 
+}
+
+.item {
+  width: 30%;
+  text-align: center;
+  color: #333;
+}
+
+.item img {
+  width: 100%;
+  height: auto;
+ }
+
+.item h3 {
+  margin: 10px 0 5px;
+  font-size: 1em;
+}
+
+.item p {
+  margin: 0;
+  color: #666;
+  font-size: 0.9em;
+}
